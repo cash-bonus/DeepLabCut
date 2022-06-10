@@ -1,0 +1,72 @@
+    # Project definitions (do not edit)
+Task: antgait
+scorer: ryanbonus
+date: Jun10
+multianimalproject: false
+identity:
+
+    # Project path (change when moving around)
+project_path: C:\Users\rbonus\Downloads\antgait-ryanbonus-2022-06-10
+
+    # Annotation data set configuration (and individual video cropping parameters)
+video_sets:
+  C:\Users\rbonus\Downloads\antgait-ryanbonus-2022-06-10\videos\ant_gait.mp4:
+    crop: 206, 495, 144, 420
+bodyparts:
+- head
+- leg1
+- leg2
+- leg3
+- leg4
+- leg5
+- leg6
+- centerthorax
+
+
+    # Fraction of video to start/stop when extracting frames for labeling/refinement
+
+    # Fraction of video to start/stop when extracting frames for labeling/refinement
+
+    # Fraction of video to start/stop when extracting frames for labeling/refinement
+start: .3
+stop: .375
+numframes2pick: 20
+
+    # Plotting configuration
+skeleton:
+- head
+- leg1
+- leg2
+- leg3
+- leg4
+- leg5
+- leg6
+- centerthorax
+skeleton_color: black
+pcutoff: 0.6
+dotsize: 12
+alphavalue: 0.7
+colormap: rainbow
+
+    # Training,Evaluation and Analysis configuration
+TrainingFraction:
+- 0.95
+iteration: 0
+default_net_type: resnet_50
+default_augmenter: default
+snapshotindex: -1
+batch_size: 8
+
+    # Cropping Parameters (for analysis and outlier frame detection)
+cropping: false
+    #if cropping is true for analysis, then set the values here:
+x1: 0
+x2: 640
+y1: 277
+y2: 624
+
+    # Refinement configuration (parameters from annotation dataset configuration also relevant in this stage)
+corner2move2:
+- 50
+- 50
+move2corner: true
