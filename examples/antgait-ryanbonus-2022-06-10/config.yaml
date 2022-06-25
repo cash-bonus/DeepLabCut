@@ -6,12 +6,32 @@ multianimalproject: false
 identity:
 
     # Project path (change when moving around)
-project_path: C:\Users\rbonus\Downloads\antgait-ryanbonus-2022-06-10
+project_path: C:\Users\rbonus\Downloads\DeepLabCut\examples\antgait-ryanbonus-2022-06-10
 
     # Annotation data set configuration (and individual video cropping parameters)
 video_sets:
-  C:\Users\rbonus\Downloads\antgait-ryanbonus-2022-06-10\videos\ant_gait.mp4:
+  C:\Users\rbonus\Downloads\DeepLabCut\examples\antgait-ryanbonus-2022-06-10\videos\ant_gait.mp4:
     crop: 206, 495, 144, 420
+  C:\Users\rbonus\Downloads\DeepLabCut\examples\antgait-ryanbonus-2022-06-10\videos\ant_gait1.mp4:
+    crop: 0, 720, 0, 540
+  C:\Users\rbonus\Downloads\DeepLabCut\examples\antgait-ryanbonus-2022-06-10\videos\ant_gait2.mp4:
+    crop: 0, 720, 0, 540
+  C:\Users\rbonus\Downloads\DeepLabCut\examples\antgait-ryanbonus-2022-06-10\videos\ant_gait3.mp4:
+    crop: 0, 720, 0, 540
+  C:\Users\rbonus\Downloads\DeepLabCut\examples\antgait-ryanbonus-2022-06-10\videos\ant_gait4.mp4:
+    crop: 0, 720, 0, 540
+  C:\Users\rbonus\Downloads\DeepLabCut\examples\antgait-ryanbonus-2022-06-10\videos\ant_gait5.mp4:
+    crop: 0, 720, 0, 540
+  C:\Users\rbonus\Downloads\DeepLabCut\examples\antgait-ryanbonus-2022-06-10\videos\ant_gait6.mp4:
+    crop: 0, 720, 0, 540
+  C:\Users\rbonus\Downloads\DeepLabCut\examples\antgait-ryanbonus-2022-06-10\videos\ant_gait7.mp4:
+    crop: 0, 720, 0, 540
+  C:\Users\rbonus\Downloads\DeepLabCut\examples\antgait-ryanbonus-2022-06-10\videos\ant_gait8.mp4:
+    crop: 0, 720, 0, 540
+  C:\Users\rbonus\Downloads\DeepLabCut\examples\antgait-ryanbonus-2022-06-10\videos\ant_gait9.mp4:
+    crop: 0, 720, 0, 540
+  C:\Users\rbonus\Downloads\DeepLabCut\examples\antgait-ryanbonus-2022-06-10\videos\ant_gait10.mp4:
+    crop: 0, 720, 0, 540
 bodyparts:
 - head
 - leg1
@@ -22,6 +42,10 @@ bodyparts:
 - leg6
 - centerthorax
 
+
+    # Fraction of video to start/stop when extracting frames for labeling/refinement
+
+    # Fraction of video to start/stop when extracting frames for labeling/refinement
 
     # Fraction of video to start/stop when extracting frames for labeling/refinement
 
